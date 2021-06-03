@@ -1,0 +1,35 @@
+.div2{
+	background-color: red;
+	font-family: montserrat;
+	display: flex;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	padding: 10px;
+
+}
+nav ul li{
+	display: inline-block;
+}
+nav{
+	display: flex;
+	margin-left: auto;
+}
+ul{
+	list-style-type: none;
+		display: inline-block;
+}
+.navdiv{
+	background-color: blue;
+	display: none;
+}
+.navdiv ul {
+	display: block;
+}
+nav ul li:hover .navdiv{
+	display: block;
+	position: absolute;
+}

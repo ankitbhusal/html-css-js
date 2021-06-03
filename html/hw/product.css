@@ -1,0 +1,115 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: montserrat, poppins, sans-serif;
+    }
+    .heading{
+        margin-top: 40px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: rgb(70, 70, 70);
+    }
+    .heading span{
+        color: green;
+    }
+    .product-warper{
+        width: 90%;
+        margin: auto;
+
+    }
+    .des{
+        margin-top: 20px;
+        color: grey;
+        width: 75%;
+        font-size: 16px;
+        text-transform: none;
+        font-weight: 400;
+        text-align: center;
+    }
+    .product-listing{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product-single{
+        display: inline-block;
+        text-align: center;
+        border-radius: 16px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px rgb(209, 209, 209);
+        padding: 20px;
+        width: 300px;
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+    .product-single:hover{
+        box-shadow: 0 0 20px rgb(116, 114, 114);
+        transform: scale(1.05);
+        transition: .2s;
+    }
+    .product-discount {
+        background-color: grey;
+        float: left;
+        padding: 20px;
+        font-weight: 700;
+        position: absolute;
+        border-radius: 8px;
+        color: white;
+    }
+    .product-img{
+        margin-top: 20px;
+        width: 200px;
+        border-radius: 16px;
+        background-image: url(https://source.unsplash.com/daily
+        );
+    }
+    .product-name{
+        font-weight: 700;
+        padding: 10px;
+        display: inline-flex;
+        color: rgb(70, 70, 70);
+        font-size: 20px;
+    }
+    .product-price{
+        color: rgb(70, 70, 70);
+        font-size: 14px;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .product-price span{
+        text-decoration: line-through;
+        color: grey;
+        font-weight: 400;
+        font-size: 14px;
+        display: inline-block;
+    }
+    .product-quantity{
+        color: rgb(70, 70, 70);
+        margin-bottom: 15px;
+        font-weight: 500;
+
+    }
+    .product-quantity span input{
+        width: 15%;
+        font-weight: 700;
+    }
+    .product-add-to-cart{
+        margin-top: 30px ;
+        background-color: grey;
+        padding: 24px;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .product-add-to-cart a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .product-add-to-cart:hover{
+        background-color: rgb(80, 79, 79);
+    }

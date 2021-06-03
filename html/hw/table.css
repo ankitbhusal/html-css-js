@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, poppins, sans-serif;
+}
+#table{
+    width: 75%;
+    margin: auto;
+    border-collapse: collapse;
+}
+#table tr th{
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#table tr td{
+    text-align: center;
+    padding: 10px;
+    opacity: 95%;        
+}
+
+#table tr:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    box-shadow: 0 0 20px -10px black;
+    opacity: 100%;
+    transition: .2s;
+}
+
+#table tr:nth-child(even){
+    background-color: white;
+}
+#table tr:nth-child(odd){
+    background-color: rgb(233, 233, 233);
+}
+.noHover{
+    pointer-events: none;
+}
+th {
+position: sticky;
+top: -1px;
+z-index: 999;
+}
+.par{
+    width: 75%;
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: blueviolet;
+    
+}
+.par2{
+    width: 75%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    text-align: center;
+    color: blueviolet;
+}
+.table2{
+    margin: auto;
+    width: 100%ee;
+}
+.table2 tr th{
+    background-color: grey;
+    padding: 20px 50px;
+}
+.table2 tr td{
+    background-color: blueviolet;
+    padding: 20px 50px;
+}
+.table2 tr th:hover{
+    background-color: rgb(100, 100, 100);
+    padding: 20px 50px;
+   transform: scale(0.9);
+   transition: .2s;
+}
+.table2 tr td:hover{
+    background-color: rgb(113, 37, 184);
+    padding: 20px 50px;
+   transform: scale(0.9);
+   transition: .2s;
+}
+.marq{
+    width: 100%;
+    background-color: blueviolet;
+    padding: 2%;
+ }
+.marquee{
+    color: white;
+  
+}
+.update{
+   
+    background-color: blueviolet;
+    display: table;
+    margin: auto;
+    border-radius: 0 60px 30px 30px;
+    margin-top: 5%;
+    box-shadow: 0 0 20px -5px grey;
+    width: 75%;
+}
+.update h2{
+   
+    border-radius: 0 50px 0 0;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.update p{
+    background-color: rgb(224, 224, 224);
+    border-radius: 0px 0 20px 20px;
+    padding: 20px;
+    color: blueviolet;
+  
+}
+.an{
+    width: 75%;
+    margin: auto;
+    background-color: rgb(230, 221, 238);
+    padding-bottom: 10px;
+    margin-top: 5%;
+    border-radius: 0px 0px 16px 16px;
+    padding-bottom: 16px;
+}
+.an-head{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 8px 8px 0px 0;
+}
+.an-card{
+    background-color: blueviolet;
+    color: white;
+    padding: 16px;
+    height: 60px;
+    width: 60px;
+    border-radius: 8px 0 0 8px;
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+.an-body{
+    background-color: rgb(202, 164, 236);
+    color: black;
+    margin-top: 4px;
+    padding: 16px;
+    height: 20%;
+    width: 65%;
+    float: left;
+    height: 60px;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    margin-bottom: 4px;
+}
+.an-body:hover{
+    background-color: rgb(152, 50, 248);
+    color: white;
+    transform: scale(1.02);
+    transition: .2s;
+}
+.annn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
