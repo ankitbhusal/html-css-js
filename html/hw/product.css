@@ -12,7 +12,7 @@
         color: rgb(70, 70, 70);
     }
     .heading span{
-        color: green;
+        color: #44813E;
     }
     .product-warper{
         width: 90%;
@@ -50,7 +50,7 @@
         transition: .2s;
     }
     .product-discount {
-        background-color: grey;
+        background-color: #92C24C;
         float: left;
         padding: 15px;
         font-weight: 700;
@@ -95,7 +95,7 @@
     }
     .product-add-to-cart{
         margin-top: 8% ;
-        background-color: grey;
+        background-color: #92C24C;
         padding: 24px;
         font-weight: 600;
         border-radius: 8px;
@@ -107,5 +107,5 @@
     }
 
     .product-add-to-cart:hover{
-        background-color: rgb(80, 79, 79);
+        background-color: #44813E;
     }
