@@ -100,6 +100,7 @@
         font-weight: 600;
         border-radius: 8px;
         cursor: pointer;
+        margin-bottom: 20px;
     }
     .product-add-to-cart a{
         text-decoration: none;
@@ -108,4 +109,16 @@
 
     .product-add-to-cart:hover{
         background-color: #44813E;
+    }
+    .end{
+        width: 75%;
+    }
+    .end {
+        color: gray;
+        margin-bottom: 50px;
+    }
+    h3{
+        text-transform: uppercase;
+        color: #44813E;
+        margin-bottom: 8px;
     }
